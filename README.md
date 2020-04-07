@@ -1,11 +1,15 @@
- # Welcome to the Data Science Code Challenge
- The next part of our interview process is a code challenge that will give you the opportunity to show us how you solve data science problems.
- 
-  The description of our challenge is below &mdash; keep in mind that this is not a test, and there aren't "right" or "wrong" answers. It's merely meant to demonstrate your creativity, your hypothesis testing skills, your Python programming and communication abilities, and your familiarity with data science techniques and tools. 
-  
-  The challenge is not timed; generally we ask that candidates return their challenge within a week, but if you need more time, just let us know.
+# Customer_Intentions_Clustering
 
-## From Clustering to Classification:
+## Created By:
+
+* __Kyle Hayes__
+
+## Project Details:
+
+Raw customer data is often times unsuitable for supervised machine learning, because they come in an unlabeled and uncategorized form. Despite this, we can still use these datasets to classify customer categories using clustering techniques. The purpose of this project is to use clustering techniques to classify unsupervised data related to online customer shopping, to label the categories based on how each category differs from the others, and to perform classification on the labelled data using machine learning algorithms.
+
+- **Business Understanding**:
+ 
 
 Oftentimes we receive a data set that is not yet suited for supervised machine learning because it lacks the necessary target. In these cases, we can sometimes use clustering to extrapolate categories and then use the cluster labels for downstream classification. For this challenge, we'd like to see how you do at this kind of task.
 
